@@ -9,7 +9,7 @@
 // ==/UserScript==
 (function decryptVersion() {
     var httpRequest = new XMLHttpRequest();
-    var url = 'https://raw.githubusercontent.com/Mai19930513/SamsungTestFirmwareVersionDecrypt/master/firmware.json'
+    var url = 'https://raw.githubusercontent.com/I-am-Gaming/SamsungTestFirmwareVersionDecrypt/master/firmware.json'
     httpRequest.open('GET', url, true);
     httpRequest.send();
     httpRequest.onreadystatechange = function() {
