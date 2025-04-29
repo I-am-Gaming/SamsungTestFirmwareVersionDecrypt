@@ -754,7 +754,7 @@ if __name__ == '__main__':
             # modelDic=dict(list(getModelDictsFromDB().items())[:1])  #测试时使用
             modelDic={'SM-S9370':{'name':'S24 Ultra','CC':['CHC']}} #测试时使用
         else:
-            modelDic = getModelDictsFromDB()  # 获取型号信息
+            modelDic = getModelDicts()  # 获取型号信息
         run()
     except func_timeout.exceptions.FunctionTimedOut:
         print('任务超时，已退出执行!')
